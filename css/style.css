@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,500;1,300;1,700&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color:  #f8f1ee ;
+}
+h1
+{
+    background-color: burlywood;
+    text-align: center;
+    padding: 0.2em;
+    /* margin-bottom: 100px;
+    margin-top: 100;
+    margin-bottom: 100; */
+}
+.color-pricipal{
+    background-color: rgba(254,114,3,1);
+
+}
+
+
+.borde{
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    width: 400px;
+    height: 1000px;
+}
+
+.circulo{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circulo1{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circulo2{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circulo3{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    transition: all 0.5s ease-in-out;
+    top:0%;
+}
+
+.circuloPerfil{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+.circuloArriba{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+
+.circuloArriba1{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+.circuloArriba2{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+
+.circuloArriba3{
+
+    z-index: 1000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    top:0%;
+}
+
+ul{
+    list-style: none;
+}
+
+.circuloPerfil::hover{
+    opacity: 100;
+    background-image: url("../img/fondo.webp");
+}
+
+.circuloArriba:hover{
+    background-image: url("../img/fondo.webp");
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.circuloTexto {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+/*  position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 28px;  */
+}
+
+.marginBot{
+    margin-bottom: 30px;
+}
+
+.shadowImg{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+
+/* FOOTER */
+.footer{
+    /* position: absolute; */
+    width: 100%;
+    /* bottom: 0; */
+}
+.color-pricipal-footer{
+    background: rgb(248,241,238);
+    background: linear-gradient(180deg, rgba(248,241,238,1) 0%, rgba(254,114,3,1) 50%);
+    min-height: 30vh ;
+    display: grid;
+    align-items: center;
+}
+footer p {
+    color: #1f288d;
+    text-decoration: none;
+}
+footer a{
+    color: #1f288d!important;
+    text-decoration: none;
+}
+
+
+
+.agradecimientos {
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 99999;
+}
+
+.boton {
+    
+    margin-bottom: 100px;
+    text-align: center;
+    width: 400px;
+    height: 120px;
+    border-radius: 40px;
+    border: 2px solid grey;
+}
+
+.boton:hover {
+
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+    -webkit-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.6);
+    box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.6);
+
+}
+
+.efecto {
+    background-color: transparent;
+    visibility: hidden;
+    color: transparent;
+    border: 0px solid transparent;
+    box-shadow: 0px 1px 10px 1px transparent;
+    -webkit-transition: all 3s 0.5s ease;
+    -moz-transition: all 3s 0.5s ease;
+    -o-transition: all 3s 0.5s ease;
+    transition: all 3s 0.5s ease;
+}
+
+.efecto1 {
+    background-color: transparent;
+    visibility: hidden;
+    color: transparent;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all s 0.5s ease;
+}
+
+.caja {
+
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.texto {
+    align-items: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+.box {
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 10%;
+    -webkit-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.6);
+    box-shadow: 6px 6px 12px 0px rgba(0,0,0,0.6);
+
+}
+
+.box:hover {
+
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all .5s 0s ease;
+    -moz-transition: all .5s 0s ease;
+    -o-transition: all .5s 0s ease;
+    transition: all .5s 0s ease;
+}
+
+.logo{
+    width: 450px;
+    height: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.logo1{
+    width: 230px;
+    height: 120px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+@media only screen and (max-device-width: 677px) and (min-device-width: 375px){
+    #team1{
+        display: inline-block;
+    }
+}
+
